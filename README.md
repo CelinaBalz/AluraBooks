@@ -25,6 +25,8 @@ utilizando do mobile first.
 ### Desenvolvimento 
 
 Aplicando os aprendizados dos cursos anteriores estarei adicionando a pratica do curso o uso do BEM e estruturar a arquitetura CSS.
+Iniciamos esse projeto no design Mobile First, o carrossel foi criado com o framework SwiperJS
+Esse projeto foi desenvolvido com mobile first e flexbox, criamos o carrossel com swiperJS e após isso deixamos o projeto responsivo para tablet e desktop. 
 
 <hr>
 
@@ -40,18 +42,15 @@ Aplicando os aprendizados dos cursos anteriores estarei adicionando a pratica do
 ![Design](/assets/img/design/P%C3%A1gina%20inicial%20-%20LOGADAM.png "Design")
 
 
-<!-->
-###  Conclusão
 
 <hr>
 
-## Ferramentas <a name="ferramentas"></a> 
+### Ferramentas <a name="ferramentas"></a> 
 <ul>
 <li>Figma</li>
 <li>BEM</li>
-<li></li>
-<li></li>
-<li></li>
+<li>FlexBox</li>
+<li>SwiperJS</li>
 </ul>
 
 ## Links <a name="links"></a>
