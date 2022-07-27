@@ -52,3 +52,17 @@
 
 }
 
+@media screen and (min-width: 1728px){
+    .topicos{
+        padding-inline: 497px;
+        padding-top: 64px;
+        padding-bottom: 74px;
+    }
+
+    .lista-rodape{
+        border-left: 1px var(--cinza-claro) solid;
+        padding-left: 20px;
+    }
+}
+
+

@@ -132,6 +132,40 @@
     padding-top: 3rem;
     padding-bottom: 1rem;
 }
+}
 
+@media screen and (min-width: 1728px){
+    .carrossel__container{
+        display: flex;
+        flex-direction: row;
+        margin: 0 4vw 4rem 11vw;
+        align-items: center;
+        gap: 84px;
+        align-items: flex-end;
+    }
 
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+
+    .swiper{
+        width: 50%;
+    }
+
+    .descricao__titulo, .mais-vendidos__titulo, .carrossel__titulo {
+        font-size: 32px;
+
+    }
+
+    .descricao__titulo{
+        width: 22rem;
+    }
+
+    .descricao__texto{
+        width: 18rem;
+    }
+
+    .card{
+        width: 40%;   
+    }
 }
