@@ -34,10 +34,34 @@
     background-image: url(/assets/img/Pesquisa.svg);
     background-repeat: no-repeat;
     background-position-x: 8%;
-    background-size: 7%;
+    background-size: contain;
     font-size: 0.875rem;
     font-weight: 400;
 }
 
 
+@media screen and (min-width: 1024px){
+
+    .banner{
+        height: 40vh;
+    }
+
+    .banner__pesquisa{
+        width: 40vw;
+        align-self: center;
+        margin-top: 2rem;
+        height: 3rem;
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 4.5em;
+    }
+    
+
+    .banner__titulo{
+        font-size: 36px;
+    }
+
+
+}
 

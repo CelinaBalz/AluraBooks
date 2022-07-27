@@ -5,6 +5,10 @@
     justify-content: center;
     align-items: center;
     padding: 24px;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    align-content: center;
 }
 
 .contato__titulo, .contato__texto{
@@ -41,4 +45,44 @@ text-align: start;
     padding-left:2em;
     justify-self: center;
     align-self: center;
+}
+
+    .contato{
+    display: none;
+    }
+
+@media screen and (min-width: 1024px){
+    .contato{
+        display: grid;
+        grid-template-columns: 2 / auto;
+        grid-template-rows: 2 / auto;
+        align-items: start;
+        justify-content: center;
+        height: 20vh;
+    }
+    .contato__titulo, 
+    .contato__texto{
+        grid-column: 1;
+        height: 100%;
+    }
+
+    .contato__titulo{
+        line-height: 1.5;
+        margin-bottom: 19px;
+        width: 15rem;
+        grid-row: 1;
+        position: relative;
+        top: 15px;
+    }
+
+    .contato__texto{
+        width: 20rem;
+        grid-row: 2;
+    }
+
+    .contato__email{
+        grid-column: 2;
+        width: 160%;
+        grid-row: 2;
+    }
 }

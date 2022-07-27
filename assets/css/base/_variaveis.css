@@ -7,7 +7,10 @@
     --sombra:0px 4px 4px rgba(0, 0, 0, 0.25);
     --preto: gba(0, 0, 0, 0.85);
     --azul:#326589;
+    --cinza: #474646;
+    --cinza-claro:#858585;
 
     /*Fonte*/
     --fonte: 'Poppins', sans-serif;
+    --fonte-secundaria:'Josefin Sans', sans-serif;
 }
